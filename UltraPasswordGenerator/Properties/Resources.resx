@@ -121,4 +121,14 @@
   <data name="dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dictionary.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1251</value>
   </data>
+  <data name="digits" xml:space="preserve">
+    <value>1234567890</value>
+    <comment>like</comment>
+  </data>
+  <data name="letters" xml:space="preserve">
+    <value>qwertyuiopasdfghjklzxcvbnm</value>
+  </data>
+  <data name="symbols" xml:space="preserve">
+    <value>!"#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^_`{|}~</value>
+  </data>
 </root>

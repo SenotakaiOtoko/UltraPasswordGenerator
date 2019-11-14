@@ -126,5 +126,32 @@ namespace UltraPasswordGenerator.Properties {
                 return ResourceManager.GetString("dictionary", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1234567890.
+        /// </summary>
+        internal static string digits {
+            get {
+                return ResourceManager.GetString("digits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to qwertyuiopasdfghjklzxcvbnm.
+        /// </summary>
+        internal static string letters {
+            get {
+                return ResourceManager.GetString("letters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to !&quot;#$%&amp;&apos;()*+,-./:;&lt;=&gt;?@[\]^_`{|}~.
+        /// </summary>
+        internal static string symbols {
+            get {
+                return ResourceManager.GetString("symbols", resourceCulture);
+            }
+        }
     }
 }
