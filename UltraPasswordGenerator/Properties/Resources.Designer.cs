@@ -61,6 +61,20 @@ namespace UltraPasswordGenerator.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Не следует использовать последовательную комбинацию цифр («123456», «77777» и т.д.)
+        ///Не следует использовать последовательную комбинацию букв на клавиатуре («qwerty» и т.д.)
+        ///Комбинируйте врехниий нижний регистры, пунктуацию и цифры
+        ///Да,верно, это номер телефона. Попробуйте добавить буквы или пунктуацию
+        ///Попробуйте добавить цифры или пунктуацию
+        ///Попробуйте добавить буквы или цифры.
+        /// </summary>
+        internal static string advices {
+            get {
+                return ResourceManager.GetString("advices", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to a
         ///abandon
         ///abandoned
