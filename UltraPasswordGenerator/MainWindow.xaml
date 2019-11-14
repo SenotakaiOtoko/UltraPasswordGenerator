@@ -1,8 +1,18 @@
 ﻿<Window x:Class="UltraPasswordGenerator.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="444.129" Width="482.575">
     <Grid>
-        
+        <Label Content="Тип:" HorizontalAlignment="Left" Margin="62,75,0,0" VerticalAlignment="Top"/>
+        <Label Content="Варинт:" HorizontalAlignment="Left" Margin="46,126,0,0" VerticalAlignment="Top" Height="26" Width="70"/>
+        <Label Content="Длина:" HorizontalAlignment="Left" Margin="48,167,0,0" VerticalAlignment="Top"/>
+        <Label Content="Качество:" HorizontalAlignment="Left" Margin="32,193,0,0" VerticalAlignment="Top"/>
+        <Label Content="Советы:" HorizontalAlignment="Left" Margin="24,232,0,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="141,75,0,0" VerticalAlignment="Top" Width="278"/>
+        <ComboBox HorizontalAlignment="Left" Margin="141,122,0,0" VerticalAlignment="Top" Width="278" IsEditable="True"/>
+        <ProgressBar HorizontalAlignment="Left" Height="18" Margin="143,198,0,0" VerticalAlignment="Top" Width="276" SmallChange="1"/>
+        <Slider HorizontalAlignment="Left" Margin="141,167,0,0" VerticalAlignment="Top" Width="278" SmallChange="1" Minimum="1" Maximum="100" TickPlacement="BottomRight" TickFrequency="10" AutoToolTipPlacement="BottomRight"/>
+        <TextBox HorizontalAlignment="Left" Height="79" Margin="24,258,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="440" IsEnabled="False"/>
+
     </Grid>
 </Window>
