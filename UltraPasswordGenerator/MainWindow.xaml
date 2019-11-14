@@ -8,7 +8,7 @@
         <Label Content="Длина:" HorizontalAlignment="Left" Margin="48,167,0,0" VerticalAlignment="Top"/>
         <Label Content="Качество:" HorizontalAlignment="Left" Margin="32,193,0,0" VerticalAlignment="Top"/>
         <Label Content="Советы:" HorizontalAlignment="Left" Margin="24,232,0,0" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Left" Margin="141,75,0,0" VerticalAlignment="Top" Width="278"/>
+        <ComboBox x:Name="Type_ComboBox" HorizontalAlignment="Left" Margin="141,75,0,0" VerticalAlignment="Top" Width="278"/>
         <ComboBox HorizontalAlignment="Left" Margin="141,122,0,0" VerticalAlignment="Top" Width="278" IsEditable="True"/>
         <ProgressBar HorizontalAlignment="Left" Height="18" Margin="143,198,0,0" VerticalAlignment="Top" Width="276" SmallChange="1"/>
         <Slider HorizontalAlignment="Left" Margin="141,167,0,0" VerticalAlignment="Top" Width="278" SmallChange="1" Minimum="1" Maximum="100" TickPlacement="BottomRight" TickFrequency="10" AutoToolTipPlacement="BottomRight"/>

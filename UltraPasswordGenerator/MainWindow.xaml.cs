@@ -22,7 +22,12 @@ namespace UltraPasswordGenerator
     {
         public MainWindow()
         {
-            InitializeComponent();
+           InitializeComponent();
+           Type_ComboBox.Items.Add(new Easy_dictionary());
+           Type_ComboBox.Items.Add(new Digits_and_letters());
+           Type_ComboBox.Items.Add(new Only_digits());
+           Type_ComboBox.Items.Add(new Any_dictionary());
+           Type_ComboBox.SelectedIndex = 0;
         }
     }
 }
